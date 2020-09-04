@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> My first website</h2>
+
+<p>Hello !</p>
+
+<p>Hello World!</p>
+
+<p>Click the button to find out my favorite color.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var myNodelist = document.querySelectorAll("p");
+  var i;
+  for (i = 0; i < myNodelist.length; i++) {
+    myNodelist[i].style.color = "blue";
+  }
+}
+</script>
+
+</body>
+</html>
